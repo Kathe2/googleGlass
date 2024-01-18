@@ -21,11 +21,30 @@ p {
 header#cabecalho img#icone{
     position: absolute;
     left: 780px;
-    top: 40px;
+    top: 70px;
 }
 
 header#cabecalho {
-    
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("/projeto-glass-html5/_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+
+header#cabecalho h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30.;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888888;
+    font-size: 15.;
+    padding: 0px;
+    margin-top: 0px;
 }
 
 /*Formatação de imagem com legenda*/
@@ -70,7 +89,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 350px;
+    left: 320px;
 
 }
 
