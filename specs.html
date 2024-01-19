@@ -1,23 +1,62 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
 
-[AQUI ENTRA UMA FOTO]
+<head>
+    <meta charset="UTF-8" />
+    <title>Tudo sobre Google Glass</title>
+    <link rel="stylesheet" href="/projeto-glass-html5/_css/estilo.css">
+</head>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<script src="/projeto-glass-html5/_javascript/funcoes.js"></script>
 
-Glass > Especificações
-Raio-X no Google Glass
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1> Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+            <img id="icone" src="/projeto-glass-html5/_imagens/especificacoes.png">
 
-Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+            <nav id="menu">
+                <h1> Menu Principal</h1>
+                <ul>
+                    <li onmouseover="mudaFoto('/projeto-glass-html5/_imagens/home.png')"
+                        onmouseout="mudaFoto('/projeto-glass-html5/_imagens/especificacoes.png')"><a href="/index.html">
+                            Home</a></li>
+                    <li onmouseover="mudaFoto('/projeto-glass-html5/_imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('/projeto-glass-html5/_imagens/especificacoes.png')"><a href="/specs.html">
+                            Especificações</a></li>
+                    <li onmouseover="mudaFoto('/projeto-glass-html5/_imagens/fotos.png')"
+                        onmouseout="mudaFoto('/projeto-glass-html5/_imagens/especificacoes.png')"> <a
+                            href="/fotos.html">Fotos</a></li>
+                    <li onmouseover="mudaFoto('/projeto-glass-html5/_imagens/multimidia.png')"
+                        onmouseout="mudaFoto('/projeto-glass-html5/_imagens/especificacoes.png')"><a
+                            href="/multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudaFoto('/projeto-glass-html5/_imagens/contato.png')"
+                        onmouseout="mudaFoto('/projeto-glass-html5/_imagens/especificacoes.png')"><a
+                            href="/fale-conosco.html"> Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
 
-[AQUI ENTRA UMA IMAGEM]
+        Glass > Especificações
+        Raio-X no Google Glass
+        por Gustavo Guanabara
+        Atualizado em 01/Maio/2013
 
-Copyright 2013 - by Gustavo Guanabara<
-Facebook | Twitter
+        Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass.
+        Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+
+        [AQUI ENTRA UMA IMAGEM]
+
+        <footer id="rodape">
+            <p>Copyright &copy; 2013 - by Gustavo Guanabara <br>
+                <a href="#" target="_blank"> Facebook </a>| <a href="#" target="_blank"> Twitter</a>
+            </p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

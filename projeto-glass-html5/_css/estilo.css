@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
 @font-face {
     font-family: 'FonteLogo';
     src: url("/projeto-glass-html5/_fonts/bubblegum-sans-regular.otf");
@@ -16,7 +17,7 @@ body {
 div#interface {
     background-color: white;
     width: 900px;
-    margin:-20px auto 0px auto;
+    margin: -20px auto 0px auto;
     box-sizing: 0px 0px 10px rgba(0, 0, 0, .5);
     padding: 10px;
 }
@@ -26,16 +27,16 @@ p {
     text-indent: 50px;
 }
 
-a{
+a {
     color: #606060;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-header#cabecalho img#icone{
+header#cabecalho img#icone {
     position: absolute;
     left: 780px;
     top: 70px;
@@ -47,8 +48,8 @@ header#cabecalho {
     background: url("/projeto-glass-html5/_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
 }
 
-header#cabecalho h1{
-    font-family:'FonteLogo' , Arial, Helvetica, sans-serif;
+header#cabecalho h1 {
+    font-family: 'FonteLogo', Arial, Helvetica, sans-serif;
     font-size: 30pt;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
@@ -56,7 +57,7 @@ header#cabecalho h1{
     margin-bottom: 0px;
 }
 
-header#cabecalho h2{
+header#cabecalho h2 {
     font-family: 'Titillium Web', sans-serif;
     color: #888888;
     font-size: 15pt;
@@ -133,10 +134,11 @@ nav#menu a {
 
 nav#menu a:hover {
     color: white;
+    text-decoration: underline;
 
 }
 
-section#corpo{
+section#corpo {
     display: block;
     width: 500px;
     float: left;
@@ -145,7 +147,7 @@ section#corpo{
 
 }
 
-article#noticia-principal h2{
+article#noticia-principal h2 {
     font-size: 13pt;
     color: #606060;
     background-color: #dddddd;
@@ -153,7 +155,7 @@ article#noticia-principal h2{
     margin: 10px 0px 10px 0px;
 }
 
-header#cabecalho-artigo h1{
+header#cabecalho-artigo h1 {
     font-family: 'FonteLogo';
     font-size: 20pt;
     color: #606060;
@@ -162,37 +164,37 @@ header#cabecalho-artigo h1{
 
 }
 
-header#cabecalho-artigo h2{
+header#cabecalho-artigo h2 {
     font-size: 13pt;
     color: #cecece;
     background-color: #ffffff;
     margin: 0px;
 }
 
-.direita{
+.direita {
     text-align: right;
 }
 
-header#cabecalho-artigo h3{
+header#cabecalho-artigo h3 {
     font-size: 12px;
     color: #606060;
 
 }
 
-table#tabelaspec{
+table#tabelaspec {
     border: 1px solid #606060;
     border-spacing: 0;
     margin-left: auto;
     margin-right: auto;
 }
 
-table#tabelaspec td{
+table#tabelaspec td {
     border: 1px solid #606060;
     padding: 10px;
     text-align: center;
 }
 
-table#tabelaspec td.ce{
+table#tabelaspec td.ce {
     color: #ffffff;
     background-color: #606060;
     vertical-align: top;
@@ -201,18 +203,18 @@ table#tabelaspec td.ce{
 
 }
 
-table#tabelaspec td.cd{
+table#tabelaspec td.cd {
     background-color: #cecece;
     text-align: left;
 }
 
-table#tabelaspec caption{
+table#tabelaspec caption {
     color: #888888;
     font-size: 13pt;
     font-weight: bolder;
 }
 
-table#tabelaspec caption span{
+table#tabelaspec caption span {
     display: block;
     float: right;
     color: #000000;
@@ -220,7 +222,7 @@ table#tabelaspec caption span{
     margin-top: 10px;
 }
 
-aside#lateral{
+aside#lateral {
     display: block;
     width: 350px;
     float: right;
@@ -230,25 +232,25 @@ aside#lateral{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
 }
 
-aside#lateral h1{
+aside#lateral h1 {
     font-family: 'FonteLogo';
     font-size: 20pt;
     color: #606060;
     margin-top: 0px;
 }
 
-aside#lateral h2{
-     background-color: #606060;
-     font-size: 13pt;
-     color: #ffffff;
-     padding: 5px;
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
 }
 
-footer#rodape{
+footer#rodape {
     clear: both;
     border-top: 1px solid #606060;
 }
 
-footer#rodape p{
+footer#rodape p {
     text-align: center;
 }
