@@ -9,6 +9,13 @@
 </head>
 
 <script src="/projeto-glass-html5/_javascript/funcoes.js"></script>
+<script>
+    function calc_total(){
+        var qtd = parseInt(document.getElementById('cQtd').value)
+        tot= qtd*1500
+        document.getElementById('cTot').value= tot;
+    }
+</script>
 
 <body>
     <div id="interface">
@@ -48,12 +55,12 @@
                     <hgroup>
                         <h3>Fale Conosco > Contato</h3>
                         <h1>Formulário de Contato</h1>
-                        <h2>por Gustavo Guanabara</h2>
-                        <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                        <h2> por Kathelyn Euzebio </h2>
+                        <h3 class="direita">Atualizado em 25/Janeiro/2024 </h3>
                     </hgroup>
                 </header>
 
-                <form method="post" id="fContato" action="mailto:kathelynjacob4@gmail.com">
+                <form method="post" id="fContato" action="mailto:kathelynjacob4@gmail.com" oninput="calc_total();">
                     <fieldset id="usuario">
                         <legend>Identificação do Usuário</legend>
                         <p><label for="cNome"> Nome: </label> <input type="text" name="tNome" id="cNome" size="20"
@@ -113,24 +120,25 @@
                     <fieldset id="mensagem">
                         <legend>Mensagem do Usuário</legend>
                         <p><label for="cUrg">Grau de Urgência:</label> Min<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2" >Máx</p>
-                        <p><label for="cMsg">Mensagem: </label> <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui a sua mensagem"></textarea></p>
+                        <p><label for="cMsg">Mensagem: </label> <textarea name="tMsg" id="cMsg" cols="35" rows="5" placeholder="Deixe aqui a sua mensagem"></textarea></p>
                     </fieldset>
 
                     <fieldset id="pedido">
                         <legend> Quero um Google Glass</legend>
-                        <p><label for="cPed"> Gostaria de adquirir um Google Glass quando disponível</label></p>
-                        <p><label for="cCor"> Cor:</label></p>
-                        <p><label for="cQtd"> Quantidade:</label></p>
-                        <p><label for="cTot"> Preço Total: R$</label></p>
+                        <p><input type="checkbox" max="tPed" id="cPed" checked><label for="cPed"> Gostaria de adquirir um Google Glass quando disponível</label></p>
+                        <p><label for="cCor"> Cor:</label><input type="color" name="tCor" id="cCor" value="#000fff"></p>
+                        <p><label for="cQtd"> Quantidade:</label> <input type="number" name="tQtd" id="cQtd" min="0" max="5" value="0"></p>
+                        <p><label for="cTot"> Preço Total: R$</label> <input type="text" name="tTot" id="cTot" placeholder="Total a pagar" readonly></p>
                     </fieldset>
 
-                    [BOTÃO ENVIAR]
+                    <input type="image" src="/projeto-glass-html5/_imagens/botao-enviar.png">
                 </form>
             </article>
         </section>
         <footer id="rodape">
-            <p>Copyright &copy; 2013 - by Gustavo Guanabara <br>
-                <a href="#" target="_blank"> Facebook </a>| <a href="#" target="_blank"> Twitter</a>
+            <p>Copyright &copy; 2024 - by Kathelyn Euzebio <br>
+                <a href="https://www.linkedin.com/in/kathelyn-euzebio" target="_blank"> LinkedIn </a>| <a href="https://github.com/Kathe2" target="_blank"> GitHub</a>
+            </p>
             </p>
         </footer>
     </div>
